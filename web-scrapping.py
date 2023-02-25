@@ -38,7 +38,7 @@ def manulife_scrapping(name,begin=None,end=None):
     elif (begin !=None and end==None):
         df = df[(df['asOfDate'] >= begin)]
     elif (begin ==None, end!=None):
-        df = df[(df['asOfDate'] <= begin)]
+        df = df[(df['asOfDate'] <= end)]
     else:
         df = df[(df['asOfDate'] >= begin) & (df['asOfDate'] <= end)]
     
