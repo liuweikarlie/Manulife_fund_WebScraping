@@ -8,8 +8,7 @@ This project aims to scrap the daily data from [Manulife Fund MPF webpage](https
 ```
 pip install panadas
 
-# because we use the dataframe for do some basic cleaning 
-
+# in the code, i use dataframe for some basic cleaning
 ```
 
 2. git the this responsibility
